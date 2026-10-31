@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "${mod_id}"
+version = "${mod_version}"
+displayName = "${mod_name}"
+authors = "FirstSight"
+description = '''客户端沉浸式音乐，内置 120 个候选版本，依据原版群系标签与环境参数自动选曲。全部音乐由 Suno AI 创作；模组代码采用 MIT 许可证，音乐资产不包含在代码许可范围内。'''
+displayTest = "IGNORE_ALL_VERSION"
+
+[[mixins]]
+config = "immersive_music.mixins.json"
+
+[[dependencies."${mod_id}"]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.238,21.2)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies."${mod_id}"]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "CLIENT"

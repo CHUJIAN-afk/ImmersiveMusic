@@ -1,0 +1,71 @@
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+    id 'net.neoforged.moddev' version '2.0.141'
+}
+
+version = mod_version
+group = mod_group_id
+
+base {
+    archivesName = mod_id
+}
+
+java {
+    toolchain.languageVersion = JavaLanguageVersion.of(21)
+    withSourcesJar()
+}
+
+neoForge {
+    version = project.neo_version
+
+    runs {
+        client {
+            client()
+        }
+    }
+
+    mods {
+        "${mod_id}" {
+            sourceSet(sourceSets.main)
+        }
+    }
+
+}
+
+repositories {
+    mavenCentral()
+}
+
+var generateModMetadata = tasks.register('generateModMetadata', ProcessResources) {
+    var properties = [mod_id: mod_id, mod_name: mod_name, mod_version: mod_version]
+    inputs.properties properties
+    filteringCharset = 'UTF-8'
+    expand properties
+    from 'src/main/templates'
+    into 'build/generated/sources/modMetadata'
+}
+
+sourceSets.main.resources.srcDir generateModMetadata
+neoForge.ideSyncTask generateModMetadata
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+tasks.withType(Jar).configureEach {
+    from('LICENSE', 'README.md')
+}
+
+tasks.named('sourcesJar', Jar) {
+    exclude 'assets/immersive_music/sounds/music/**'
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            artifactId = mod_id
+            from components.java
+        }
+    }
+}
