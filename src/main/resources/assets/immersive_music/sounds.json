@@ -1,0 +1,962 @@
+{
+  "music.first_wheat_light_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/first_wheat_light_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.first_wheat_light_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/first_wheat_light_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.paths_in_grass_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/paths_in_grass_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.paths_in_grass_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/paths_in_grass_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.orange_way_home_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/orange_way_home_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.orange_way_home_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/orange_way_home_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.stars_over_plain_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/stars_over_plain_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.stars_over_plain_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/stars_over_plain_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.flowers_below_hill_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/flowers_below_hill_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.flowers_below_hill_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/flowers_below_hill_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.unnamed_horizon_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/unnamed_horizon_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.unnamed_horizon_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/unnamed_horizon_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.path_between_leaves_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/path_between_leaves_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.path_between_leaves_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/path_between_leaves_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.birch_afternoon_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/birch_afternoon_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.birch_afternoon_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/birch_afternoon_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.dim_forest_lantern_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/dim_forest_lantern_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.dim_forest_lantern_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/dim_forest_lantern_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.moving_flower_shadows_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/moving_flower_shadows_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.moving_flower_shadows_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/moving_flower_shadows_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.unfallen_cherry_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/unfallen_cherry_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.unfallen_cherry_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/unfallen_cherry_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.night_above_branches_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/night_above_branches_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.night_above_branches_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/night_above_branches_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.letter_on_snow_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/letter_on_snow_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.letter_on_snow_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/letter_on_snow_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.wind_between_ice_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/wind_between_ice_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.wind_between_ice_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/wind_between_ice_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.snow_on_needles_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/snow_on_needles_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.snow_on_needles_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/snow_on_needles_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.old_spruce_echo_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/old_spruce_echo_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.old_spruce_echo_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/old_spruce_echo_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.blue_snow_night_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/blue_snow_night_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.blue_snow_night_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/blue_snow_night_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.frozen_river_turn_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/frozen_river_turn_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.frozen_river_turn_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/frozen_river_turn_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.before_dunes_wake_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/before_dunes_wake_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.before_dunes_wake_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/before_dunes_wake_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.sun_on_gravel_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/sun_on_gravel_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.sun_on_gravel_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/sun_on_gravel_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.sunset_on_terracotta_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/sunset_on_terracotta_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.sunset_on_terracotta_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/sunset_on_terracotta_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.between_acacias_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/between_acacias_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.between_acacias_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/between_acacias_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.stars_of_dryland_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/stars_of_dryland_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.stars_of_dryland_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/stars_of_dryland_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.ochre_strata_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/ochre_strata_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.ochre_strata_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/ochre_strata_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.light_under_duckweed_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/light_under_duckweed_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.light_under_duckweed_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/light_under_duckweed_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.mangrove_breath_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/mangrove_breath_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.mangrove_breath_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/mangrove_breath_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.deeper_green_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/deeper_green_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.deeper_green_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/deeper_green_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.short_bamboo_phrases_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/short_bamboo_phrases_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.short_bamboo_phrases_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/short_bamboo_phrases_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.jungle_stays_awake_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/jungle_stays_awake_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.jungle_stays_awake_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/jungle_stays_awake_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.mushroom_slow_dance_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/mushroom_slow_dance_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.mushroom_slow_dance_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/mushroom_slow_dance_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.edge_above_clouds_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/edge_above_clouds_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.edge_above_clouds_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/edge_above_clouds_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.ridge_without_footprints_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/ridge_without_footprints_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.ridge_without_footprints_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/ridge_without_footprints_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.lit_side_of_stone_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/lit_side_of_stone_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.lit_side_of_stone_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/lit_side_of_stone_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.windworn_plateau_pattern_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/windworn_plateau_pattern_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.windworn_plateau_pattern_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/windworn_plateau_pattern_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.lower_the_night_sky_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/lower_the_night_sky_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.lower_the_night_sky_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/lower_the_night_sky_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.slow_blue_above_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/slow_blue_above_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.slow_blue_above_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/slow_blue_above_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.departing_shallows_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/departing_shallows_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.departing_shallows_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/departing_shallows_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.space_beside_river_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/space_beside_river_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.space_beside_river_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/space_beside_river_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.day_slowed_by_sea_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/day_slowed_by_sea_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.day_slowed_by_sea_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/day_slowed_by_sea_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.dusk_on_tide_line_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/dusk_on_tide_line_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.dusk_on_tide_line_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/dusk_on_tide_line_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.window_on_black_sea_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/window_on_black_sea_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.window_on_black_sea_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/window_on_black_sea_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.north_shore_salt_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/north_shore_salt_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.north_shore_salt_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/north_shore_salt_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.coral_slow_motion_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/coral_slow_motion_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.coral_slow_motion_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/coral_slow_motion_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.blue_green_descent_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/blue_green_descent_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.blue_green_descent_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/blue_green_descent_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.long_tones_under_ice_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/long_tones_under_ice_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.long_tones_under_ice_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/long_tones_under_ice_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.closing_ocean_trench_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/closing_ocean_trench_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.closing_ocean_trench_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/closing_ocean_trench_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.moonlight_in_water_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/moonlight_in_water_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.moonlight_in_water_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/moonlight_in_water_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.beyond_water_sound_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/beyond_water_sound_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.beyond_water_sound_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/beyond_water_sound_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.stalagmites_count_time_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/stalagmites_count_time_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.stalagmites_count_time_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/stalagmites_count_time_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.room_of_moss_light_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/room_of_moss_light_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.room_of_moss_light_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/room_of_moss_light_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.deep_dark_memory_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/deep_dark_memory_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.deep_dark_memory_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/deep_dark_memory_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.below_the_surface_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/below_the_surface_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.below_the_surface_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/below_the_surface_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.red_wastes_hum_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/red_wastes_hum_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.red_wastes_hum_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/red_wastes_hum_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.crimson_veins_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/crimson_veins_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.crimson_veins_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/crimson_veins_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.warped_blue_message_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/warped_blue_message_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.warped_blue_message_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/warped_blue_message_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.unhurried_soul_sand_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/unhurried_soul_sand_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.unhurried_soul_sand_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/unhurried_soul_sand_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.slow_blackstone_flow_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/slow_blackstone_flow_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.slow_blackstone_flow_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/slow_blackstone_flow_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.far_tones_on_obsidian_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/far_tones_on_obsidian_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.far_tones_on_obsidian_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/far_tones_on_obsidian_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.between_chorus_trees_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/between_chorus_trees_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.between_chorus_trees_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/between_chorus_trees_b",
+        "stream": true
+      }
+    ]
+  },
+  "music.light_beyond_islands_a": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/light_beyond_islands_a",
+        "stream": true
+      }
+    ]
+  },
+  "music.light_beyond_islands_b": {
+    "sounds": [
+      {
+        "name": "immersive_music:music/light_beyond_islands_b",
+        "stream": true
+      }
+    ]
+  }
+}

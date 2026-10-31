@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "first.immersivemusic.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "immersive_music.refmap.json",
+  "client": [
+    "MusicManagerMixin",
+    "SoundEngineAccessor",
+    "SoundManagerAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

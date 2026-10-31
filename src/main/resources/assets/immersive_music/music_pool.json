@@ -1,0 +1,1405 @@
+[
+  {
+    "number": 1,
+    "id": "first_wheat_light",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "skyVisible": true,
+      "height": {
+        "gte": 48
+      },
+      "dayTimeAny": [
+        [
+          23000,
+          24000
+        ],
+        [
+          0,
+          1000
+        ]
+      ],
+      "temperature": {
+        "gte": 0.5,
+        "lt": 1
+      }
+    },
+    "tagsAny": [
+      "minecraft:is_overworld"
+    ],
+    "tagsNone": [
+      "minecraft:is_forest",
+      "minecraft:is_taiga",
+      "minecraft:is_jungle",
+      "minecraft:is_badlands",
+      "minecraft:is_savanna",
+      "minecraft:is_ocean",
+      "minecraft:is_beach",
+      "minecraft:is_river",
+      "minecraft:is_mountain",
+      "minecraft:has_closer_water_fog",
+      "minecraft:without_zombie_sieges"
+    ]
+  },
+  {
+    "number": 2,
+    "id": "paths_in_grass",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "skyVisible": true,
+      "height": {
+        "gte": 48
+      },
+      "dayTimeAny": [
+        [
+          1000,
+          11000
+        ]
+      ],
+      "brightness": {
+        "gte": 9
+      },
+      "temperature": {
+        "gte": 0.5,
+        "lt": 1
+      }
+    },
+    "tagsAny": [
+      "minecraft:is_overworld"
+    ],
+    "tagsNone": [
+      "minecraft:is_forest",
+      "minecraft:is_taiga",
+      "minecraft:is_jungle",
+      "minecraft:is_badlands",
+      "minecraft:is_savanna",
+      "minecraft:is_ocean",
+      "minecraft:is_beach",
+      "minecraft:is_river",
+      "minecraft:is_mountain",
+      "minecraft:has_closer_water_fog",
+      "minecraft:without_zombie_sieges"
+    ]
+  },
+  {
+    "number": 3,
+    "id": "orange_way_home",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "skyVisible": true,
+      "height": {
+        "gte": 48
+      },
+      "dayTimeAny": [
+        [
+          11000,
+          13000
+        ]
+      ],
+      "temperature": {
+        "gte": 0.5,
+        "lt": 1
+      }
+    },
+    "tagsAny": [
+      "minecraft:is_overworld"
+    ],
+    "tagsNone": [
+      "minecraft:is_forest",
+      "minecraft:is_taiga",
+      "minecraft:is_jungle",
+      "minecraft:is_badlands",
+      "minecraft:is_savanna",
+      "minecraft:is_ocean",
+      "minecraft:is_beach",
+      "minecraft:is_river",
+      "minecraft:is_mountain",
+      "minecraft:has_closer_water_fog",
+      "minecraft:without_zombie_sieges"
+    ]
+  },
+  {
+    "number": 4,
+    "id": "stars_over_plain",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "skyVisible": true,
+      "height": {
+        "gte": 48
+      },
+      "dayTimeAny": [
+        [
+          13000,
+          23000
+        ]
+      ],
+      "brightness": {
+        "lt": 9
+      },
+      "temperature": {
+        "gte": 0.5,
+        "lt": 1
+      }
+    },
+    "tagsAny": [
+      "minecraft:is_overworld"
+    ],
+    "tagsNone": [
+      "minecraft:is_forest",
+      "minecraft:is_taiga",
+      "minecraft:is_jungle",
+      "minecraft:is_badlands",
+      "minecraft:is_savanna",
+      "minecraft:is_ocean",
+      "minecraft:is_beach",
+      "minecraft:is_river",
+      "minecraft:is_mountain",
+      "minecraft:has_closer_water_fog",
+      "minecraft:without_zombie_sieges"
+    ]
+  },
+  {
+    "number": 5,
+    "id": "flowers_below_hill",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "skyVisible": true,
+      "height": {
+        "gte": 64,
+        "lt": 160
+      },
+      "dayTimeAny": [
+        [
+          1000,
+          11000
+        ]
+      ],
+      "temperature": {
+        "gte": 0.4,
+        "lt": 0.7
+      },
+      "brightness": {
+        "gte": 9
+      }
+    },
+    "tagsAny": [
+      "minecraft:is_mountain",
+      "minecraft:has_structure/village_plains"
+    ]
+  },
+  {
+    "number": 6,
+    "id": "unnamed_horizon",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 0.8,
+    "preferences": {}
+  },
+  {
+    "number": 7,
+    "id": "path_between_leaves",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "height": {
+        "gte": 48
+      },
+      "dayTimeAny": [
+        [
+          1000,
+          11000
+        ]
+      ],
+      "temperature": {
+        "gte": 0.5,
+        "lt": 1
+      }
+    },
+    "tagsAny": [
+      "minecraft:is_forest"
+    ]
+  },
+  {
+    "number": 8,
+    "id": "birch_afternoon",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "height": {
+        "gte": 48
+      },
+      "dayTimeAny": [
+        [
+          1000,
+          11000
+        ]
+      ],
+      "temperature": {
+        "gte": 0.5,
+        "lt": 0.65
+      },
+      "brightness": {
+        "gte": 10
+      },
+      "skyVisible": true
+    },
+    "tagsAny": [
+      "minecraft:is_forest"
+    ]
+  },
+  {
+    "number": 9,
+    "id": "dim_forest_lantern",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "height": {
+        "gte": 48
+      },
+      "brightness": {
+        "lt": 9
+      },
+      "skyVisible": false
+    },
+    "tagsAny": [
+      "minecraft:is_forest"
+    ],
+    "preferredTags": [
+      "minecraft:has_structure/woodland_mansion"
+    ]
+  },
+  {
+    "number": 10,
+    "id": "moving_flower_shadows",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "height": {
+        "gte": 48
+      },
+      "dayTimeAny": [
+        [
+          1000,
+          11000
+        ]
+      ],
+      "temperature": {
+        "gte": 0.65,
+        "lt": 1
+      },
+      "brightness": {
+        "gte": 11
+      },
+      "skyVisible": true
+    },
+    "tagsAny": [
+      "minecraft:is_forest"
+    ]
+  },
+  {
+    "number": 11,
+    "id": "unfallen_cherry",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "height": {
+        "gte": 80,
+        "lt": 160
+      },
+      "temperature": {
+        "gte": 0.4,
+        "lt": 0.65
+      },
+      "brightness": {
+        "gte": 9
+      }
+    },
+    "tagsAny": [
+      "minecraft:is_mountain",
+      "minecraft:is_forest"
+    ]
+  },
+  {
+    "number": 12,
+    "id": "night_above_branches",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "height": {
+        "gte": 48
+      },
+      "dayTimeAny": [
+        [
+          13000,
+          23000
+        ]
+      ]
+    },
+    "tagsAny": [
+      "minecraft:is_forest"
+    ]
+  },
+  {
+    "number": 13,
+    "id": "letter_on_snow",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "skyVisible": true,
+      "height": {
+        "gte": 48
+      },
+      "dayTimeAny": [
+        [
+          23000,
+          24000
+        ],
+        [
+          0,
+          1000
+        ]
+      ],
+      "temperature": {
+        "lt": 0.15
+      }
+    },
+    "temperatureLimit": {
+      "lt": 0.3
+    },
+    "preferredTags": [
+      "minecraft:spawns_snow_foxes",
+      "minecraft:spawns_cold_variant_frogs"
+    ]
+  },
+  {
+    "number": 14,
+    "id": "wind_between_ice",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "skyVisible": true,
+      "height": {
+        "gte": 48
+      },
+      "dayTimeAny": [
+        [
+          1000,
+          11000
+        ]
+      ],
+      "temperature": {
+        "lt": 0.15
+      }
+    },
+    "temperatureLimit": {
+      "lt": 0.05
+    },
+    "preferredTags": [
+      "minecraft:spawns_snow_foxes",
+      "minecraft:spawns_cold_variant_frogs"
+    ],
+    "tagsNone": [
+      "minecraft:is_forest",
+      "minecraft:is_taiga",
+      "minecraft:is_mountain",
+      "minecraft:is_ocean",
+      "minecraft:is_river"
+    ]
+  },
+  {
+    "number": 15,
+    "id": "snow_on_needles",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "height": {
+        "gte": 48
+      },
+      "dayTimeAny": [
+        [
+          1000,
+          11000
+        ]
+      ]
+    },
+    "tagsAny": [
+      "minecraft:is_taiga"
+    ],
+    "temperatureLimit": {
+      "lt": 0.25
+    }
+  },
+  {
+    "number": 16,
+    "id": "old_spruce_echo",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "height": {
+        "gte": 48
+      },
+      "dayTimeAny": [
+        [
+          1000,
+          11000
+        ]
+      ],
+      "temperature": {
+        "gte": 0.15,
+        "lt": 0.5
+      }
+    },
+    "tagsAny": [
+      "minecraft:is_taiga"
+    ],
+    "temperatureLimit": {
+      "gte": 0.15,
+      "lt": 0.6
+    }
+  },
+  {
+    "number": 17,
+    "id": "blue_snow_night",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "skyVisible": true,
+      "height": {
+        "gte": 48
+      },
+      "dayTimeAny": [
+        [
+          13000,
+          23000
+        ]
+      ],
+      "brightness": {
+        "lt": 9
+      }
+    },
+    "temperatureLimit": {
+      "lt": 0.3
+    },
+    "preferredTags": [
+      "minecraft:spawns_snow_foxes",
+      "minecraft:spawns_cold_variant_frogs"
+    ]
+  },
+  {
+    "number": 18,
+    "id": "frozen_river_turn",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "skyVisible": true,
+      "height": {
+        "gte": 48
+      },
+      "dayTimeAny": [
+        [
+          1000,
+          11000
+        ]
+      ],
+      "temperature": {
+        "lt": 0.15
+      }
+    },
+    "tagsAny": [
+      "minecraft:is_river"
+    ],
+    "temperatureLimit": {
+      "lt": 0.15
+    }
+  },
+  {
+    "number": 19,
+    "id": "before_dunes_wake",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "skyVisible": true,
+      "height": {
+        "gte": 48
+      },
+      "dayTimeAny": [
+        [
+          23000,
+          24000
+        ],
+        [
+          0,
+          1000
+        ]
+      ],
+      "temperature": {
+        "gte": 1.0
+      }
+    },
+    "tagsAny": [
+      "minecraft:has_structure/desert_pyramid",
+      "minecraft:has_structure/ruined_portal_desert",
+      "minecraft:spawns_gold_rabbits"
+    ]
+  },
+  {
+    "number": 20,
+    "id": "sun_on_gravel",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "skyVisible": true,
+      "height": {
+        "gte": 48
+      },
+      "dayTimeAny": [
+        [
+          1000,
+          11000
+        ]
+      ],
+      "brightness": {
+        "gte": 12
+      },
+      "temperature": {
+        "gte": 1.0
+      }
+    },
+    "tagsAny": [
+      "minecraft:has_structure/desert_pyramid",
+      "minecraft:has_structure/ruined_portal_desert",
+      "minecraft:spawns_gold_rabbits"
+    ]
+  },
+  {
+    "number": 21,
+    "id": "sunset_on_terracotta",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "skyVisible": true,
+      "height": {
+        "gte": 48
+      },
+      "dayTimeAny": [
+        [
+          11000,
+          13000
+        ]
+      ],
+      "temperature": {
+        "gte": 1.0
+      }
+    },
+    "tagsAny": [
+      "minecraft:is_badlands"
+    ]
+  },
+  {
+    "number": 22,
+    "id": "between_acacias",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "skyVisible": true,
+      "height": {
+        "gte": 48
+      },
+      "dayTimeAny": [
+        [
+          1000,
+          11000
+        ]
+      ],
+      "temperature": {
+        "gte": 1.0
+      }
+    },
+    "tagsAny": [
+      "minecraft:is_savanna"
+    ]
+  },
+  {
+    "number": 23,
+    "id": "stars_of_dryland",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "skyVisible": true,
+      "height": {
+        "gte": 48
+      },
+      "dayTimeAny": [
+        [
+          13000,
+          23000
+        ]
+      ],
+      "brightness": {
+        "lt": 9
+      }
+    },
+    "tagsAny": [
+      "minecraft:has_structure/desert_pyramid",
+      "minecraft:is_savanna",
+      "minecraft:is_badlands"
+    ]
+  },
+  {
+    "number": 24,
+    "id": "ochre_strata",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "skyVisible": true,
+      "height": {
+        "gte": 96
+      },
+      "temperature": {
+        "gte": 1.0
+      }
+    },
+    "tagsAny": [
+      "minecraft:is_badlands"
+    ]
+  },
+  {
+    "number": 25,
+    "id": "light_under_duckweed",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "height": {
+        "gte": 48
+      },
+      "brightness": {
+        "lt": 11
+      },
+      "temperature": {
+        "gte": 0.5,
+        "lt": 1.2
+      }
+    },
+    "tagsAny": [
+      "minecraft:has_closer_water_fog",
+      "minecraft:allows_surface_slime_spawns"
+    ]
+  },
+  {
+    "number": 26,
+    "id": "mangrove_breath",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "height": {
+        "gte": 48
+      },
+      "temperature": {
+        "gte": 1
+      }
+    },
+    "tagsAny": [
+      "minecraft:has_closer_water_fog",
+      "minecraft:allows_surface_slime_spawns"
+    ]
+  },
+  {
+    "number": 27,
+    "id": "deeper_green",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "height": {
+        "gte": 48
+      },
+      "dayTimeAny": [
+        [
+          1000,
+          11000
+        ]
+      ],
+      "brightness": {
+        "lt": 12
+      }
+    },
+    "tagsAny": [
+      "minecraft:is_jungle"
+    ]
+  },
+  {
+    "number": 28,
+    "id": "short_bamboo_phrases",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "height": {
+        "gte": 48
+      },
+      "dayTimeAny": [
+        [
+          1000,
+          11000
+        ]
+      ],
+      "brightness": {
+        "gte": 9
+      }
+    },
+    "tagsAny": [
+      "minecraft:is_jungle"
+    ]
+  },
+  {
+    "number": 29,
+    "id": "jungle_stays_awake",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "height": {
+        "gte": 48
+      },
+      "dayTimeAny": [
+        [
+          13000,
+          23000
+        ]
+      ]
+    },
+    "tagsAny": [
+      "minecraft:is_jungle"
+    ]
+  },
+  {
+    "number": 30,
+    "id": "mushroom_slow_dance",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "height": {
+        "gte": 48
+      }
+    },
+    "tagsAny": [
+      "minecraft:without_zombie_sieges"
+    ]
+  },
+  {
+    "number": 31,
+    "id": "edge_above_clouds",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "skyVisible": true,
+      "height": {
+        "gte": 160,
+        "lt": 256
+      },
+      "dayTimeAny": [
+        [
+          1000,
+          11000
+        ]
+      ]
+    },
+    "tagsAny": [
+      "minecraft:is_mountain",
+      "minecraft:is_hill"
+    ],
+    "heightLimit": {
+      "gte": 128
+    }
+  },
+  {
+    "number": 32,
+    "id": "ridge_without_footprints",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "skyVisible": true,
+      "height": {
+        "gte": 192,
+        "lt": 256
+      },
+      "temperature": {
+        "lt": 0.15
+      }
+    },
+    "tagsAny": [
+      "minecraft:is_mountain",
+      "minecraft:is_hill"
+    ],
+    "heightLimit": {
+      "gte": 160
+    },
+    "temperatureLimit": {
+      "lt": 0.3
+    }
+  },
+  {
+    "number": 33,
+    "id": "lit_side_of_stone",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "skyVisible": true,
+      "height": {
+        "gte": 128,
+        "lt": 256
+      },
+      "dayTimeAny": [
+        [
+          1000,
+          11000
+        ]
+      ],
+      "temperature": {
+        "gte": 0.5
+      }
+    },
+    "tagsAny": [
+      "minecraft:is_mountain"
+    ],
+    "temperatureLimit": {
+      "gte": 0.5
+    },
+    "heightLimit": {
+      "gte": 128
+    }
+  },
+  {
+    "number": 34,
+    "id": "windworn_plateau_pattern",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "skyVisible": true,
+      "height": {
+        "gte": 96,
+        "lt": 192
+      }
+    },
+    "tagsAny": [
+      "minecraft:is_hill",
+      "minecraft:is_savanna"
+    ],
+    "heightLimit": {
+      "gte": 96
+    }
+  },
+  {
+    "number": 35,
+    "id": "lower_the_night_sky",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "skyVisible": true,
+      "height": {
+        "gte": 192,
+        "lt": 256
+      },
+      "dayTimeAny": [
+        [
+          13000,
+          23000
+        ]
+      ]
+    },
+    "heightLimit": {
+      "gte": 192
+    }
+  },
+  {
+    "number": 36,
+    "id": "slow_blue_above",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "skyVisible": true,
+      "height": {
+        "gte": 256
+      }
+    },
+    "heightLimit": {
+      "gte": 256
+    }
+  },
+  {
+    "number": 37,
+    "id": "departing_shallows",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "skyVisible": true,
+      "height": {
+        "gte": 48
+      },
+      "dayTimeAny": [
+        [
+          1000,
+          11000
+        ]
+      ]
+    },
+    "tagsAny": [
+      "minecraft:is_beach"
+    ]
+  },
+  {
+    "number": 38,
+    "id": "space_beside_river",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "skyVisible": true,
+      "height": {
+        "gte": 48
+      }
+    },
+    "tagsAny": [
+      "minecraft:is_river"
+    ],
+    "temperatureLimit": {
+      "gte": 0.15
+    }
+  },
+  {
+    "number": 39,
+    "id": "day_slowed_by_sea",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "skyVisible": true,
+      "height": {
+        "gte": 55,
+        "lt": 96
+      },
+      "dayTimeAny": [
+        [
+          1000,
+          11000
+        ]
+      ]
+    },
+    "tagsAny": [
+      "minecraft:is_ocean"
+    ],
+    "temperatureLimit": {
+      "gte": 0.5
+    }
+  },
+  {
+    "number": 40,
+    "id": "dusk_on_tide_line",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "skyVisible": true,
+      "height": {
+        "gte": 48
+      },
+      "dayTimeAny": [
+        [
+          11000,
+          13000
+        ]
+      ]
+    },
+    "tagsAny": [
+      "minecraft:is_beach",
+      "minecraft:is_ocean"
+    ]
+  },
+  {
+    "number": 41,
+    "id": "window_on_black_sea",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "skyVisible": true,
+      "height": {
+        "gte": 48,
+        "lt": 128
+      },
+      "dayTimeAny": [
+        [
+          13000,
+          23000
+        ]
+      ]
+    },
+    "tagsAny": [
+      "minecraft:is_ocean"
+    ]
+  },
+  {
+    "number": 42,
+    "id": "north_shore_salt",
+    "realm": "overworld",
+    "layer": "surface",
+    "weight": 3,
+    "preferences": {
+      "skyVisible": true,
+      "height": {
+        "gte": 48
+      },
+      "temperature": {
+        "lt": 0.6
+      }
+    },
+    "tagsAny": [
+      "minecraft:is_beach",
+      "minecraft:is_ocean"
+    ],
+    "temperatureLimit": {
+      "lt": 0.6
+    }
+  },
+  {
+    "number": 43,
+    "id": "coral_slow_motion",
+    "realm": "overworld",
+    "layer": "underwater",
+    "weight": 3,
+    "preferences": {
+      "height": {
+        "gte": 40
+      }
+    },
+    "tagsAny": [
+      "minecraft:is_ocean",
+      "minecraft:produces_corals_from_bonemeal"
+    ],
+    "temperatureLimit": {
+      "gte": 1
+    },
+    "preferredTags": [
+      "minecraft:produces_corals_from_bonemeal"
+    ]
+  },
+  {
+    "number": 44,
+    "id": "blue_green_descent",
+    "realm": "overworld",
+    "layer": "underwater",
+    "weight": 3,
+    "preferences": {
+      "height": {
+        "gte": 32,
+        "lt": 63
+      },
+      "brightness": {
+        "gte": 5
+      }
+    },
+    "tagsAny": [
+      "minecraft:is_ocean"
+    ],
+    "temperatureLimit": {
+      "gte": 0.4
+    }
+  },
+  {
+    "number": 45,
+    "id": "long_tones_under_ice",
+    "realm": "overworld",
+    "layer": "underwater",
+    "weight": 3,
+    "preferences": {
+      "temperature": {
+        "lt": 0.6
+      }
+    },
+    "tagsAny": [
+      "minecraft:is_ocean"
+    ],
+    "temperatureLimit": {
+      "lt": 0.6
+    },
+    "preferredTags": [
+      "minecraft:spawns_cold_variant_frogs"
+    ]
+  },
+  {
+    "number": 46,
+    "id": "closing_ocean_trench",
+    "realm": "overworld",
+    "layer": "underwater",
+    "weight": 3,
+    "preferences": {
+      "height": {
+        "lt": 32
+      },
+      "brightness": {
+        "lt": 5
+      }
+    },
+    "tagsAny": [
+      "minecraft:is_deep_ocean"
+    ],
+    "heightLimit": {
+      "lt": 32
+    }
+  },
+  {
+    "number": 47,
+    "id": "moonlight_in_water",
+    "realm": "overworld",
+    "layer": "underwater",
+    "weight": 3,
+    "preferences": {
+      "dayTimeAny": [
+        [
+          13000,
+          23000
+        ]
+      ],
+      "brightness": {
+        "lt": 9
+      }
+    }
+  },
+  {
+    "number": 48,
+    "id": "beyond_water_sound",
+    "realm": "overworld",
+    "layer": "underwater",
+    "weight": 0.8,
+    "preferences": {}
+  },
+  {
+    "number": 49,
+    "id": "stalagmites_count_time",
+    "realm": "overworld",
+    "layer": "underground",
+    "weight": 2,
+    "preferences": {
+      "skyVisible": false,
+      "height": {
+        "lt": 48
+      },
+      "temperature": {
+        "gte": 0.6,
+        "lt": 1.1
+      },
+      "brightness": {
+        "lt": 7
+      }
+    },
+    "tagsNone": [
+      "minecraft:has_structure/ancient_city",
+      "minecraft:allows_tropical_fish_spawns_at_any_height"
+    ]
+  },
+  {
+    "number": 50,
+    "id": "room_of_moss_light",
+    "realm": "overworld",
+    "layer": "underground",
+    "weight": 3,
+    "preferences": {
+      "skyVisible": false,
+      "height": {
+        "lt": 96
+      }
+    },
+    "tagsAny": [
+      "minecraft:allows_tropical_fish_spawns_at_any_height"
+    ]
+  },
+  {
+    "number": 51,
+    "id": "deep_dark_memory",
+    "realm": "overworld",
+    "layer": "underground",
+    "weight": 3,
+    "preferences": {
+      "skyVisible": false,
+      "height": {
+        "lt": 0
+      },
+      "brightness": {
+        "lt": 5
+      }
+    },
+    "tagsAny": [
+      "minecraft:has_structure/ancient_city",
+      "minecraft:mineshaft_blocking"
+    ],
+    "heightLimit": {
+      "lt": 0
+    }
+  },
+  {
+    "number": 52,
+    "id": "below_the_surface",
+    "realm": "overworld",
+    "layer": "underground",
+    "weight": 0.8,
+    "preferences": {
+      "skyVisible": false,
+      "height": {
+        "lt": 48
+      }
+    }
+  },
+  {
+    "number": 53,
+    "id": "red_wastes_hum",
+    "realm": "nether",
+    "layer": "any",
+    "weight": 0.8,
+    "preferences": {}
+  },
+  {
+    "number": 54,
+    "id": "crimson_veins",
+    "realm": "nether",
+    "layer": "any",
+    "weight": 3,
+    "preferences": {
+      "brightness": {
+        "gte": 8
+      },
+      "height": {
+        "gte": 40
+      }
+    },
+    "tagsAny": [
+      "minecraft:has_structure/bastion_remnant"
+    ]
+  },
+  {
+    "number": 55,
+    "id": "warped_blue_message",
+    "realm": "nether",
+    "layer": "any",
+    "weight": 3,
+    "preferences": {
+      "brightness": {
+        "gte": 5,
+        "lt": 12
+      },
+      "height": {
+        "gte": 48,
+        "lt": 128
+      }
+    },
+    "tagsAny": [
+      "minecraft:has_structure/bastion_remnant"
+    ]
+  },
+  {
+    "number": 56,
+    "id": "unhurried_soul_sand",
+    "realm": "nether",
+    "layer": "any",
+    "weight": 5,
+    "preferences": {},
+    "tagsAny": [
+      "minecraft:has_structure/nether_fossil"
+    ]
+  },
+  {
+    "number": 57,
+    "id": "slow_blackstone_flow",
+    "realm": "nether",
+    "layer": "any",
+    "weight": 3,
+    "preferences": {
+      "brightness": {
+        "lt": 8
+      },
+      "height": {
+        "lt": 72
+      }
+    },
+    "tagsAny": [
+      "minecraft:is_nether"
+    ],
+    "tagsNone": [
+      "minecraft:has_structure/bastion_remnant"
+    ]
+  },
+  {
+    "number": 58,
+    "id": "far_tones_on_obsidian",
+    "realm": "end",
+    "layer": "any",
+    "weight": 0.8,
+    "preferences": {}
+  },
+  {
+    "number": 59,
+    "id": "between_chorus_trees",
+    "realm": "end",
+    "layer": "any",
+    "weight": 3,
+    "preferences": {},
+    "tagsAny": [
+      "minecraft:has_structure/end_city"
+    ]
+  },
+  {
+    "number": 60,
+    "id": "light_beyond_islands",
+    "realm": "end",
+    "layer": "any",
+    "weight": 3,
+    "preferences": {
+      "height": {
+        "gte": 24,
+        "lt": 80
+      }
+    },
+    "tagsAny": [
+      "minecraft:is_end"
+    ],
+    "tagsNone": [
+      "minecraft:has_structure/end_city"
+    ]
+  }
+]
